@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(247, 247, 247);
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #2E3861;
+    z-index: 2;
+}
+nav .icon{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(247, 247, 247);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(247, 247, 247);
+}
+nav .icon img{
+    height: auto;
+    width: 50px;
+}
+nav .icon h1{
+    padding-right: 15px;
+    font-size: 40px;
+    line-height: 35px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+nav h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+    background: -webkit-linear-gradient(orange, white, rgb(1, 255, 1));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav h2 span{
+    font-size: 65px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+main .top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orange;
+    z-index: -2;
+}
+main .top h1{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-family: "Acme", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+}
+
+main .middle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -9%;
+}
+
+main .middle img{
+    width: 30%;
+    height: auto;
+    filter: drop-shadow(-4px 4px 1px);
+    opacity: 1;
+    z-index: -1;
+}
+main .middle marquee{
+    z-index: 1;
+    font-family: "Acme", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: -21%;
+    font-size: 100px;
+    color: white;
+    text-shadow: 0 0 30px black, 0 0 20px #2E3861; 
+}
+
+main .bottom{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(74, 255, 140);
+    z-index: -2;
+}
+main .bottom h1{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: "Acme", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+}
