@@ -2,7 +2,7 @@
 
 Welcome to the Voting Page repository dedicated to promoting voting in India for the year 2024!
 
-![Vote India Banner](Assets/vote-india.jpg)
+![image](https://github.com/IshanviChauhan/Promote-Voting/assets/111958930/65f57921-7387-4c73-bcfc-0df819185476)
 
 ## Introduction
 
