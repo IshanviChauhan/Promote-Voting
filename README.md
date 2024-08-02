@@ -42,7 +42,3 @@ If you'd like to contribute to this voting page by adding new features, improvin
 ## Credits
 
 - **Images**: All images used in this voting page are sourced from the Assets folder of this repository.
-
-## License
-
-This voting page is licensed under the [MIT License](LICENSE).
